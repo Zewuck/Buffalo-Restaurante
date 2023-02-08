@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Finlandica:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Finlandica:ital@1&family=Solitreo&display=swap');
+
+
+body {
+    margin: 0 0 0 0;
+}
+
+/*---------------------- Imagen inicio  ------------------------*/
+
+.elemento-fondo {
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    position: inherit;
+}
+
+.logo {
+    width: 700px;
+    height: 350px;
+}
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.logo-container{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+}
+
+@media (min-width: 530px) and (max-width: 800px) {
+    .logo {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 529px) {
+    .logo {
+        width: 280px;
+        height: 200px;
+    }
+}
+
+
+.em {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto-inicio {
+    width: 100%;
+    font-weight: 1000;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 70px;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    line-height: 70px;
+}
+
+@media (max-width: 750px) {
+    .texto-inicio {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .slogan-inicio {
+        font-size: 18px !important;
+    }
+
+    .em {
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+
+    .texto-inicio-container {
+        width: 500px !important;
+        margin: 5px auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .texto-inicio {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    .slogan-inicio {
+        font-size: 16px !important;
+    }
+
+    .em {
+        font-size: 16px !important;
+        font-weight: 700;
+    }
+
+    .texto-inicio-container {
+        width: 250px !important;
+        margin: 5px auto;
+    }
+}
+
+.texto-inicio-container {
+    width: 700px;
+    margin: 5px auto;
+}
+
+.slogan-inicio {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.elemento-fondo-container {
+    width: 100%;
+    height: 100%;
+    background: url(https://b2283449.smushcdn.com/2283449/wp-content/uploads/2020/03/Carne-asada.jpg?lossy=1&strip=1&webp=1);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carne-inicio {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.carne-container {
+    height: 100%;
+    width: 100px;
+    background-color: #000;
+    opacity: .8;
+}
+
+.btn-reservas {
+        --bs-btn-color: #fff !important;
+        --bs-btn-bg: rgb(99, 0, 0) !important;
+        --bs-btn-border-color: rgb(99, 0, 0);
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: rgb(145, 0, 0);
+        --bs-btn-hover-border-color: rgb(99, 0, 0);
+        --bs-btn-focus-shadow-rgb: 49,132,253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: rgb(99, 0, 0);
+        --bs-btn-active-border-color: rgb(99, 0, 0);
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: rgb(99, 0, 0);
+        --bs-btn-disabled-border-color: rgb(99, 0, 0);
+        padding: 7px 24px !important;
+        border-radius: 3px !important;
+}
+.btn-container {
+    margin: 30px 0px;
+}
+
+.telefono-inicio {
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+}
+
+.telefono-container {
+    margin-bottom: 30px;
+}
+
+/* eventos */
+
+.reservas-container {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.proximos-eventos {
+    font-family: 'Solitreo', sans-serif;
+    font-size: 50px;
+    color: rgb(99, 0, 0);
+    font-weight: 1000;
+}
+
+@media (max-width: 500px) {
+    .proximos-eventos {
+        font-size: 30px;
+    }
+
+    .fecha {
+        font-size: 23px !important;
+    }
+
+    .descripcion-fecha {
+        font-size: 20px !important;
+    }
+}
+
+.hr-container {
+    width: 60px !important;
+    margin: 0px auto;
+}
+
+.proximos-eventos-hr {
+    height: 2px !important;
+    border-radius: 10px !important;
+    background-color: #000 !important;
+}
+
+.eventos-flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.div-hora {
+    text-align: start;
+    padding: 30px 0px;
+}
+
+.fecha {
+    font-size: 32px;
+    color: rgb(99, 0, 0);
+}
+
+.descripcion-fecha {
+    font-size: 27px;
+}
+
+/* reserva en linea */
+
+.img-shop {
+    padding: 10px 0 !important;
+    width: 100%;
+    height: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    .img-shop {
+        height: 200px;
+        width: 230px !important;
+    }
+
+    .card {
+        width: 230px !important;
+        height: 100% !important;
+    }
+}
+
+.card {
+    width: 320px;
+    height: 100%;
+    margin: 0px auto !important;
+}
+
+.btn-reservar {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: rgb(99, 0, 0) !important;
+    --bs-btn-border-color: rgb(99, 0, 0);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(145, 0, 0);
+    --bs-btn-hover-border-color: rgb(99, 0, 0);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(99, 0, 0);
+    --bs-btn-active-border-color: rgb(99, 0, 0);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: rgb(99, 0, 0);
+    --bs-btn-disabled-border-color: rgb(99, 0, 0);
+    border-radius: 3px !important;
+}
+
+.btn-container-reservar {
+    padding: 0 0 20px 10px;
+}
+
+.container_grid_products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px;
+    margin-top: 30px;
+  }
+
+.container_grid_products:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+}
+
+.img-shop2 {
+    width: 200px !important;
+    height: 300px;
+}
+  
+.img-carrusel {
+    width: 300px;
+    height: 500px;
+}
+
+.section-reservas {
+    width: 80%;
+    margin: 0px auto;
+}
+
+@media (max-width: 1000px) {
+    .section-reservas {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    
+}
+
+.carrusel-section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+@media (min-width: 1000px) {
+    .carrusel-section {
+        width: 800px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .carrusel-section {
+        width: 95%;
+    }
+    
+    .img-2 {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 499px) {
+    .carrusel-section {
+        width: 100%;
+    }
+
+    .img-2 {
+        width: 60% !important;
+        height: 100% !important;
+    }
+
+    .img-container {
+        height: 400px !important;
+    }
+
+    .carousel-inner {
+        height: 400px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 350px) {
+    .carrusel-section {
+        width: 100%;
+    }
+
+    .img-2 {
+        width: 50% !important;
+        height: 400px !important;
+        margin-top: -30px !important; 
+    }
+
+    .carousel-inner {
+        height: 300px;
+    }
+}
+
+
+.img-2 {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.fondo-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.img-fondo {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+/* social */
+
+.social-container {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.social {
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.fb-ig {
+    margin: 35px 0px;
+}
+
+.fb, .ig {
+    padding: 30px;
+}
+
+/* contacto */
+
+.contacto {
+    margin-top: 40px;
+    font-size: 23px
+}
+
+.reservas-site {
+    margin-top: 30px
+}
+
+.contacto-container {
+    width: 60%;
+    margin: 0px auto;
+}
+
+@media (min-width: 1000px) {
+    .contacto-container {
+        width: 500px;
+        margin: 0px auto;
+    }
+    
+}
+
+.form-container {
+    width: 100%;
+}
+
+.btn-enviar {
+    width: 100px;
+    height: 40px;
+}
+
+.d-grid {
+    justify-items: center;
+}
+
+.btn-enviar-contacto {
+    font-weight: 750;
+}
